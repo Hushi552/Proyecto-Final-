@@ -34,7 +34,7 @@ Pega el código completo de nuestra versión depurada de "La Tiendita" y guarda 
 
 Paso 4: Ejecutar el programa
 
-Abre nuevamente la terminal dentro de VS Code (asegurándote de estar dentro de la carpeta LaTiendita) y escribe el comando mágico:
+Abre nuevamente la terminal dentro de VS Code (asegurándote de estar dentro de la carpeta LaTiendita) y escribe el comando:
 
 Bash
 
