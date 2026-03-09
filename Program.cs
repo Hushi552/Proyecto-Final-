@@ -63,7 +63,7 @@ namespace LaTiendita
         {
             Console.Clear();
             Console.Write("Nombre del producto.\n");
-            string name = Console.ReadLine().Trim().ToUpper();
+            string name = Console.ReadLine()!.Trim().ToUpper();
 
             if (names.Contains(name))
             {
@@ -91,7 +91,7 @@ namespace LaTiendita
         {
             Console.Clear();
             Console.Write("Nombre del producto que desea eliminar.\n");
-            string search = Console.ReadLine().ToUpper();
+            string search = Console.ReadLine()!.ToUpper();
             int index = names.IndexOf(search);
 
             if(index != -1)
@@ -114,7 +114,7 @@ namespace LaTiendita
         {
             Console.Clear();
             Console.Write("que producto desea actualizar? ");
-            string search = Console.ReadLine().ToUpper();
+            string search = Console.ReadLine()!.ToUpper();
             int index = names.IndexOf(search);
 
             if(index != -1)
@@ -159,7 +159,7 @@ namespace LaTiendita
             while (true)
             {
                 Console.Write("Producto a Facturar (o'FIN'):\n");
-                string prod = Console.ReadLine().ToUpper();
+                string prod = Console.ReadLine()!.ToUpper();
                 if (prod =="FIN") break; 
 
                 int index = names.IndexOf(prod);
