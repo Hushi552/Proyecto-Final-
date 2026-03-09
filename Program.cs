@@ -24,7 +24,7 @@ namespace LaTiendita
             Showmenu();
         }
 
-        static void Showmenu()  // funcion del menu 
+        static void Showmenu()  // funcion para vizualizar menu 
         {
             int option = 0;
             while (option != 6)
@@ -150,7 +150,7 @@ namespace LaTiendita
             
         }
 
-         static void Receipt()
+         static void Receipt() // funcion para generar una factura
         {
             Console.Clear();
             double total = 0;
@@ -191,7 +191,7 @@ namespace LaTiendita
             Console.ReadLine();
         }
 
-        static void Savearchive()
+        static void Savearchive()   // funcion para guardar datos en un archivo .txt
         {
             List<string> lines = new List<string>();
             for(int i = 0; i < names.Count; i++)
@@ -202,7 +202,7 @@ namespace LaTiendita
             Console.WriteLine("Datos Guardados");
         }
         
-        static void Loadarchive()
+        static void Loadarchive()  // funcion para cargar datos anteriores desde el archivo .txt
         {
             if (File.Exists(archive))
             {
