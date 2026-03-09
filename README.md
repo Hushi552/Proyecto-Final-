@@ -1,4 +1,5 @@
 Pasos para Crear y Ejecutar el Proyecto
+
 Paso 1: Crear el proyecto de consola
 
 Abre VS Code.
@@ -9,12 +10,14 @@ Escribe el siguiente comando y presiona Enter. Esto creará una carpeta con la e
 
 
 dotnet new console -n LaTiendita
+
 Paso 2: Abrir la carpeta del proyecto
 
 En la misma terminal, entra a la carpeta que acabas de crear:
 
 
 cd LaTiendita
+
 Para abrir esa carpeta en tu explorador de archivos de VS Code, escribe:
 
 
